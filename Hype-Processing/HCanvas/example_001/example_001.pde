@@ -11,7 +11,7 @@ void setup() {
 	H.init(this).background(#202020);
 	smooth();
 
-	colors = new HColorPool(#FFFFFF, #F7F7F7, #ECECEC, #333333, #0095a8, #00616f, #FF3300, #FF6600);
+	colors = new HColorPool(#FFFFFF, #F7F7F7, #ECECEC, #333333, #0095a8, #00616f, #FF3300, #FF6600,#3399FF,#99ff66);
 
 	canvas1 = new HCanvas().autoClear(false).fade(2);
 	canvas2 = new HCanvas().autoClear(false).fade(4);
